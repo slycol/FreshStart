@@ -1,5 +1,5 @@
 
-from flask import Flask, request, jsonify, render_template
+"""from flask import Flask, request, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 from reportlab.lib.pagesizes import letter
@@ -171,7 +171,6 @@ def save_pdf():
         f.write(buffer.getvalue())
 
 
-"""
 def opp_finder():
 
 
@@ -195,7 +194,7 @@ def opp_finder():
         print("------")
 
     soup = BeautifulSoup(response.text, 'html.parser')
-"""
+
 
 
 def scrapy_opp_finder():
@@ -213,3 +212,4 @@ def main():
 if __name__ == '__main__':
     main()
 
+"""
